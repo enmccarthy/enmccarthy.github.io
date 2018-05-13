@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Some information about mysel!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Soon to come!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[emccarthyern@gmail.com](mailto:emccarthyern@gmail.com)
