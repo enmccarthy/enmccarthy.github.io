@@ -6,7 +6,6 @@ title: Neural Network WorkFlow
 So when I first started implementing I was overwhelmed at how the flow of Neural Networks was implemented. I *thought* had a general idea of forward propagation, loss function, activation functions and backwards propagation. But really I had no idea how to put together all these parts to make a working Neural Network which has lead me to document what I have learned. 
 
 
-
 1. The input:
     My initial struggle: How does a neural network take in a 32x32 image?
     What I learned: That flatten function you see when using libraries to use neural nets... well that is how you input images. It takes the 32 x 32 matrix and turns it into a 1d array with 1024 inputs. Each pixel becomes its own input.
