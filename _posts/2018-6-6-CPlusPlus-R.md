@@ -2,6 +2,5 @@
 layout: post
 title: Recommendation System in C++ using GPUs!
 ---
---Place holder for recommendation system in C++--
-I am working on a group project that is implementing a recommendation system using cuBlas! 
+I did a group project with Alister Johnson implementing a recommendation system using cuBlas! We ran this on the HPC Talapas at the University of Oregon. To sum up most of our issues - memory management. When allocating and using variables it is important to understand what is accessing what, and at what time. 
 github link [repo](https://github.com/ajohnson-uoregon/CIS631-team-project) 
