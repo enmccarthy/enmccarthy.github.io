@@ -4,6 +4,7 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
+    {% include sidebar.html %} 
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,6 +37,7 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+      
     </div>
 
     <div class="wrapper-footer">
@@ -45,7 +47,8 @@
         </footer>
       </div>
     </div>
-    {% include sidebar.html %} 
+
     {% include analytics.html %}
+    
   </body>
 </html>
