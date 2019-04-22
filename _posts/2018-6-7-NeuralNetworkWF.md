@@ -10,7 +10,7 @@ So when I first started implementing I was overwhelmed at how the flow of Neural
 1. The input:
     My initial struggle: How does a neural network take in a 32x32 image? Now looking back this seems trivial.
     What I learned: That flatten function you see when using libraries to use neural nets... well that is how you input images. It takes the 32 x 32 matrix and turns it into a 1d array with 1024 inputs. Each pixel becomes its own input.
-    This may seem like something I should have known but somehow I missed this until I had to implement it myself. This fact about a neural network also highlights the benefits of a convolutional neural net. It better fits the structure of an image input and can detect images that are oriented in different places.
+    This may seem like something I should have known but somehow I missed this until I had to implement it. This fact about a neural network also highlights the benefits of a convolutional neural net. It better fits the structure of an image input and can detect images that are oriented in different places.
        
 2. Forward Propagation:
     Forward Propagation takes the input, multiplies it by the weight, sums the input and uses the activation function and passes this value to the next layer. In order to translate this into code you will need a function that performs matrix multiplication and sums the input for the appropriate hidden node and then a function that applies the activation function to these sums. The activation function can be different for the output layer, in the case where there are many categories for a classification problem it is common to see a softmax activation. It is best to make all these in function that take small steps because it makes them much easier to test!
